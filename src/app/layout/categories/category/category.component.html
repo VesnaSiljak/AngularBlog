@@ -1,0 +1,12 @@
+<h1> {{categoryName}} </h1>
+<div>
+    <div class="article" *ngFor= "let article of articles" (click) = "setActiveArticle(article, article.url)">
+        <img [src]="'./../assets/images/' + article.img"  alt="">
+        <div class="gradient"></div>
+        <div class="article-details">
+            <span> {{article.date}} </span>
+            <h2> {{article.title}} </h2>
+            <p> {{article.shortdescription}} </p>
+        </div>
+    </div>
+</div>

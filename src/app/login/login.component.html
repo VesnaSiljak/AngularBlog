@@ -1,0 +1,12 @@
+<div class="login">
+  <div>
+    <h2>Log In</h2>
+    <form (ngSubmit)="onSubmit(f)" #f="ngForm">
+      <input type="text" name="username" ngModel placeholder="Username">
+      <input type="text" name="password" ngModel placeholder="Password">
+      <p>Forgot your password?</p>
+      <button type="submit">Login</button>
+      <button>Sign up</button>
+    </form>
+  </div>
+</div>

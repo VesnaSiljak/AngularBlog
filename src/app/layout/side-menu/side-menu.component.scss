@@ -1,0 +1,25 @@
+.side-menu{
+    position: fixed;
+    right: -200px;
+    top: 71px;
+    z-index: 1;
+    width: 200px;
+    background: #304658;
+    height: 100%;
+    transition: 0.3s ease-in;
+
+    &.active{
+        right: 0;
+        transition: 0.3s ease-in;
+    }
+
+    ul{
+        list-style: none;
+        line-height: 30px;
+        color: white;
+
+        li{
+            border-bottom: 1px solid #ffffff2e;
+        }
+    }
+}

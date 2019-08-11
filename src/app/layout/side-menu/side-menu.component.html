@@ -1,0 +1,12 @@
+<div class="side-menu" [class.active]="isActive" >
+  <ul>
+    <li (click) = "goToLink('/authors')">Authors</li>
+    <li (click) = "goToLink('/categories')">Categories</li>
+    <ul>
+      <li *ngFor="let category of categories" (click) = "goToCategory(category.id, category.url)">{{category.title}}</li>
+    </ul>
+    <li (click) = "goToLink('/profile')">Profile</li>
+    <li>Logout</li>
+  </ul>
+</div>
+

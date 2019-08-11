@@ -1,0 +1,3 @@
+<ul *ngFor= "let author of authors">
+  <li>{{author.name}} <span>{{author.articles.length}}</span> <button (click)="goToArticle(author)">Articles</button></li>
+</ul>

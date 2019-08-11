@@ -1,0 +1,25 @@
+[
+    {
+        "title": "Science",
+        "articles": [
+            {
+                "date": "10.10.2010.",
+                "title": "Science Lorem ipsum",
+                "img": "lorem.jpg",
+                "url": "science-lorem-ipsum",
+                "id" : 1,
+                "author" : "Joh Doe",
+                "text": "bla bla bla"
+            },
+            {
+                "date": "11.11.2011.",
+                "title": "Lorem ipsum dolor sit amet",
+                "img": "lorem-ipsum.jpg",
+                "url": "science-lorem-ipsum-dolor-sit-amet",
+                "id" : 2,
+                "author" : "Joh Doe",
+                "text" : "bla bla bla"
+            }
+        ]
+    }
+]

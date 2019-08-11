@@ -1,0 +1,6 @@
+<h1>{{author.name}}</h1>
+<div *ngFor="let article of author.articles" (click) = "setActiveArticle(article, article.url)">
+  <h2>{{article.title}}</h2>
+  <span>{{article.date}}</span>
+  <p></p>
+</div>

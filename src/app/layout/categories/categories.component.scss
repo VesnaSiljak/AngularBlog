@@ -1,0 +1,30 @@
+.category{
+    height: 200px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    
+
+    img{
+        position: absolute;
+        width: 100%;
+    }
+
+    .gradient{
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        background: rgb(0,0,0);
+        background: linear-gradient(0deg, rgba(0,0,0,0.8130602582830007) 0%, rgba(0,0,0,0.3) 36%);
+    }
+
+    p{
+        position: absolute;
+        bottom: 30px;
+        left: 30px;
+        font-size: 20px;
+        color: white;
+        text-shadow: 2px 2px 4px #000000;
+        font-weight: bold;
+    }
+}

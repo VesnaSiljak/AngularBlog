@@ -1,0 +1,8 @@
+<select name="choose-category" id="choose-category">
+  <option *ngFor="let category of categories" value="{{category.id}}">{{category.title}}</option>
+</select>
+<input type="text" placeholder="Title">
+<label for="file">Upload photo</label>
+<input type="file" id="file" (change)="handleFileInput($event.target.files)">
+<input (click)="d.toggle()" [minDate]="today" (dateSelect)="onDateSelect($event)" type="text" ngbDatepicker #d="ngbDatepicker" />
+<app-ngx-editor [placeholder]="'Enter text here...'" [spellcheck]="true" [(ngModel)]="htmlContent"></app-ngx-editor>

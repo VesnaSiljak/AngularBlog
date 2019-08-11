@@ -1,0 +1,55 @@
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box; 
+    padding: 10px 20px 10px 20px;
+    align-items: center;
+    background: #243849;
+
+    .user{
+        color: white;
+    }
+    .right{
+        .add-new{
+            border: none;
+            border-radius: 10px;
+            padding: 7px 10px;
+            background: #7cb0df;
+            color: white;
+            font-size: 13px;
+            transition: 0.6s ease-in;
+
+            &:focus{
+                outline: none;
+            }
+    
+            &:hover{
+                background: #3d7db7;
+            }
+        }
+
+        .side-menu{
+            border: none;
+            background: transparent;
+            padding-left: 15px;
+            position: relative;
+            top: 2px;
+
+            &:focus{
+                outline: none;
+            }
+            i{
+                font-size: 20px;
+                color: #7cb0df;
+
+                &:hover{
+                    color: #3d7db7;
+                }
+                
+            }
+        }
+    }
+}

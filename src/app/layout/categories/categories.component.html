@@ -1,0 +1,7 @@
+<div *ngFor = "let category of categoriesList">
+  <div class="category" (click) = "goToCategory(category.id, category.url)">
+    <img [src]="'../assets/images/' + category.img" alt="">
+    <div class="gradient"></div>
+    <p> {{category.title}} </p>
+  </div>
+</div>

@@ -1,0 +1,45 @@
+h1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+}
+.article{
+    height: 200px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+
+    img{
+        position: absolute;
+        width: 100%;
+    }
+
+    .gradient{
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        background: rgb(0,0,0);
+        background: linear-gradient(0deg, rgba(0,0,0,0.8130602582830007) 0%, rgba(0,0,0,0.3) 36%);
+    }
+
+    .article-details{
+        position: absolute;
+        bottom: 0;
+        left: 20px;
+        color: white;
+        text-shadow: 2px 2px 4px #000000;
+        
+
+        h2{
+            font-size: 20px;
+            margin: 0;
+            font-weight: 400;
+        }
+
+        p{
+            font-size: 15px;
+            margin: 0;
+            margin-bottom: 10px;
+        }
+    }
+}

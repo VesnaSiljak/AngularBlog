@@ -1,0 +1,27 @@
+[
+    {
+        "title": "Sport",
+        "articles": [
+            {
+                "date": "10.10.2010.",
+                "title": "Sport Lorem ipsum",
+                "img": "lorem.jpg",
+                "url": "sport-lorem-ipsum",
+                "id" : 1,
+                "author": "Joe Doe",
+                "text": "<p><b>Bla</b> bla bla</p>",
+                "shortdescription": "Bla bla bla"
+            },
+            {
+                "date": "11.11.2011.",
+                "title": "Lorem ipsum dolor sit amet",
+                "img": "lorem-ipsum.jpg",
+                "url": "sport-lorem-ipsum-dolor-sit-amet",
+                "id" : 2,
+                "author": "Joe Doe",
+                "text": "<p><b>Bla</b> bla bla</p>",
+                "shortdescription": "Bla bla bla"
+            }
+        ]
+    }
+]
